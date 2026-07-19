@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Mechanik – Struktur und Energie</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    max-width: 900px;
+}
+h1, h2, h3 {
+    color: #222;
+}
+code {
+    background: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+.section {
+    margin-bottom: 30px;
+}
+.box {
+    background: #f9f9f9;
+    border-left: 4px solid #444;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+</style>
+</head>
+<body>
+
+<h1>Mechanik – Struktur, Kräfte und Energie</h1>
+
+<div class="section">
+<h2>1. Grundidee der Mechanik</h2>
+<p>
+Mechanik beschreibt die Beziehung zwischen <b>Kräften</b>, <b>Bewegung</b> und <b>Energie</b>.
+Dabei gibt es zwei fundamentale Wechselwirkungen:
+</p>
+<ul>
+<li>Gravitation: F = G * (m₁ * m₂) / r²</li>
+<li>Coulomb-Kraft: F = k * (q₁ * q₂) / r²</li>
+</ul>
+<p>
+Diese Kräfte sind die <b>Logik der Wechselwirkung</b> in der klassischen Physik.
+</p>
+</div>
+
+<div class="section">
+<h2>2. Bewegung aus Kraft</h2>
+<div class="box">
+F = m · a
+</div>
+<p>
+Diese Gleichung beschreibt keine Naturkraft selbst, sondern die Reaktion eines Körpers:
+Eine resultierende Kraft erzeugt eine Beschleunigung.
+</p>
+<div class="box">
+a = F / m
+</div>
+<p>
+Beschleunigung ist die zeitliche Änderung der Geschwindigkeit.
+</p>
+<div class="box">
+v = ds/dt
+</div>
+<p>
+Arten der Beschleunigung:
+</p>
+<ul>
+<li><b>Gleichmäßig beschleunigt:</b> a ist konstant (z. B. idealer freier Fall ohne Reibung)</li>
+<li><b>Ungleichmäßig beschleunigt:</b> a = a(t) hängt von der Zeit ab</li>
+<li><b>Freier Fall (nahe Erde):</b> a = g (konstant im Modell)</li>
+<li><b>Allgemein:</b> Beschleunigung entsteht immer aus der resultierenden Kraft F_res</li>
+</ul>
+</div>
+</div>
+
+<div class="section">
+<h2>3. Arbeit als Verbindung zwischen Kraft und Energie</h2>
+<p>
+Arbeit beschreibt die Wirkung einer Kraft entlang eines Weges:
+</p>
+<div class="box">
+W = ∫ F ds
+</div>
+<p>
+Arbeit ist die Brücke zwischen Kraft und Energie:
+</p>
+<div class="box">
+ΔE = W
+ΔE kann sowohl potenzielle als auch kinetische Energie enthalten.
+</div>
+</div>
+
+<div class="section">
+<h2>4. Energie als Speicher und Bilanzierung von Arbeit</h2>
+<p>
+Energie ist kein Fundament der Kraft, sondern ein gespeicherter Zustand der verrichteten Arbeit.
+Sie beschreibt die <b>gesamte akkumulierte Wirkung von Kräften</b>.
+</p>
+<p>
+Energie kann man als <b>Landschaft der Arbeit</b> verstehen:
+unterschiedliche Kräfte erzeugen unterschiedliche „Höhen“ in dieser Struktur.
+</p>
+</div>
+
+<div class="section">
+<h2>5. Potenzielle Energie</h2>
+<p>
+Potenzielle Energie entsteht in konservativen Kraftfeldern (z. B. Gravitation, elektrische Kraft als Kraftformel).
+</p>
+<div class="box">
+F_G = G * (m₁ * m₂) / r²
+</div>
+<p>
+Allgemein:
+</p>
+<div class="box">
+ΔE_pot = - ∫ F_G ds
+</div>
+<p>
+Spezialfall nahe der Erde:
+</p>
+<div class="box">
+E_pot = m g h
+</div>
+<p>
+Interpretation: Energie speichert die Lage im Gravitationsfeld.
+</p>
+</div>
+
+<div class="section">
+<h2>6a. Kinetische Energie</h2>
+<p>
+Kinetische Energie beschreibt den Bewegungszustand eines Körpers.
+</p>
+<div class="box">
+E_kin = 1/2 m v²
+</div>
+
+<h3>Herleitung aus Kraft</h3>
+<p>
+Startpunkt:
+</p>
+<div class="box">
+E_kin = ∫ F ds
+</div>
+<p>
+Einsetzen von F = m a:
+</p>
+<div class="box">
+E_kin = ∫ m a ds
+</div>
+<p>
+Zusammenhang zwischen Weg und Geschwindigkeit:
+</p>
+<div class="box">
+ds = v dt,    a = dv/dt
+</div>
+<p>
+Einsetzen:
+</p>
+<div class="box">
+E_kin = ∫ m v dv
+</div>
+<p>
+Integration:
+</p>
+<div class="box">
+∫ v dv = 1/2 v²
+</div>
+<p>
+Ergebnis:
+</p>
+<div class="box">
+E_kin = 1/2 m v²
+</div>
+</div>
+
+<div class="section">
+<h2>6b. Kinetische Energie mit Gravitationskraft</h2>
+<p>
+In speziellen Fällen kann für die kinetische Energie die Gravitationskraft direkt verwendet werden, wenn ausschließlich die Gravitation als einzige wirkende Kraft betrachtet wird (z. B. freier Fall ohne Reibung).
+</p>
+<div class="box">
+E_kin = ∫ F_g ds
+</div>
+<p>
+Dabei gilt: Dies ist nur korrekt, wenn keine weiteren Kräfte beteiligt sind.
+</p>
+<p>
+Die Arbeit bleibt allgemein definiert als:
+</p>
+<div class="box">
+W = ∫ F ds
+</div>
+<p>
+Arbeit ist die Wirkung einer Kraft entlang eines Weges.
+</p>
+</div>
+
+<div class="section">
+<h2>7. Zusammenhang zwischen potenzieller und kinetischer Energie</h2>
+<p>
+In einem idealen konservativen System gilt:
+</p>
+<div class="box">
+ΔE_kin = - ΔE_pot
+</div>
+<p>
+Das bedeutet:
+Energie wird nicht erzeugt oder vernichtet, sondern umgewandelt.
+</p>
+</div>
+
+<div class="section">
+<h2>6c. Kinetische Energie mit Luftwiderstand</h2>
+Folgendes als Beispiel für Ekin mit dem Einfluss mehrerer Kräfte als nur der Gravitation.
+
+<p><b>Beispiel: kinetische Energie mit Luftwiderstand</b></p>
+
+<p>Wenn neben der Gravitation auch Luftwiderstand wirkt, werden alle Kräfte zur resultierenden Kraft zusammengefasst:</p>
+
+<div class="box">
+F_res = F_g - F_Luftwiderstand
+</div>
+
+<p>Die kinetische Energie ergibt sich dann aus der Arbeit dieser resultierenden Kraft über den Weg:</p>
+
+<div class="box">
+E_kin = ∫ (F_g - F_L) ds
+</div>
+
+<p>Wichtig: Beide Kräfte wirken gleichzeitig während der gesamten Bewegung. Es handelt sich nicht um eine nachträgliche Korrektur, sondern um eine kontinuierliche Netto-Wirkung der Kräfte.</p>
+</div>
+
+<div class="section">
+<h2>8. Gesamtsicht der Mechanik</h2>
+<ul>
+<li>Kraft: Ursache der Änderung</li>
+<li>Beschleunigung: direkte Reaktion</li>
+<li>Geschwindigkeit: akkumulierte Bewegung</li>
+<li>Arbeit: Wirkung der Kraft entlang eines Weges</li>
+<li>Energie: gespeicherte Arbeit</li>
+<li>Potential: Struktur des Kraftfeldes</li>
+</ul>
+</div>
+
+</body>
+</html>

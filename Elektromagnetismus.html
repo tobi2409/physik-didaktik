@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+<meta charset="UTF-8">
+<title>Elektrisches Feld und Elektromagnetismus</title>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    max-width: 1000px;
+}
+
+h1, h2, h3 {
+    color: #222;
+}
+
+.formula {
+    background: #f5f5f5;
+    padding: 12px;
+    margin: 12px 0;
+    font-size: 1.15em;
+}
+
+.box {
+    background: #fff4c2;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<h1>Elektrisches Feld und Elektromagnetismus</h1>
+
+
+<h2>1. Grundidee: Wechselwirkung zwischen Ladungen</h2>
+
+<p>
+Elektrische Wechselwirkungen entstehen durch elektrische Ladungen.
+</p>
+
+<p>
+Die fundamentale Beschreibung beginnt mit zwei Ladungen:
+</p>
+
+<ul>
+<li>q₁: erzeugende Ladung</li>
+<li>q₂: beobachtete Ladung</li>
+<li>r: Abstand zwischen beiden Ladungen</li>
+</ul>
+
+
+<h3>Coulomb-Kraft</h3>
+
+
+<div class="formula">
+F = k · (q₁ · q₂) / r²
+</div>
+
+
+<p>
+Diese Formel beschreibt die Kraft zwischen zwei konkreten Ladungen.
+</p>
+
+
+<div class="box">
+
+Die Kraft ist zunächst keine Eigenschaft einer einzelnen Ladung.
+Sie beschreibt immer eine Wechselwirkung zwischen zwei Objekten.
+
+</div>
+
+
+
+<h2>2. Warum brauchen wir ein elektrisches Feld?</h2>
+
+
+<p>
+Die Coulomb-Kraft beantwortet:
+</p>
+
+<p>
+"Welche Kraft wirkt zwischen zwei bestimmten Ladungen?"
+</p>
+
+
+<p>
+Eine weiterführende Frage lautet jedoch:
+</p>
+
+
+<div class="box">
+
+Welche elektrische Wirkung besitzt eine Ladung unabhängig davon,
+welches zweite Objekt später in ihre Nähe kommt?
+
+</div>
+
+
+<p>
+Dafür entfernen wir die Eigenschaft des zweiten Objekts.
+</p>
+
+
+<h2>3. Einführung der Testladung</h2>
+
+
+<p>
+Um eine Kraft messen zu können, benötigen wir ein zweites Objekt.
+</p>
+
+
+<p>
+Falls keine reale zweite Ladung vorhanden ist, verwenden wir eine fiktive Testladung:
+</p>
+
+
+<div class="formula">
+qTest
+</div>
+
+
+<p>
+Diese Testladung ist kein zusätzliches reales Teilchen,
+sondern ein Messwerkzeug, damit die Formel weiterhin mathematisch lösbar bleibt.
+</p>
+
+
+<p>
+Die gemessene Kraft lautet:
+</p>
+
+
+<div class="formula">
+F = k · (q₁ · qTest) / r²
+</div>
+
+
+<p>
+Diese Kraft hängt aber noch von der Größe der Testladung ab.
+</p>
+
+
+<h2>4. Elektrische Feldstärke</h2>
+
+
+<p>
+Um die Eigenschaft der Quelle q₁ unabhängig von der Testladung zu erhalten,
+teilen wir durch qTest:
+</p>
+
+
+<div class="formula">
+E = F / qTest
+</div>
+
+
+<p>
+Einsetzen:
+</p>
+
+
+<div class="formula">
+E = (k · q₁ · qTest / r²) / qTest
+</div>
+
+
+<div class="formula">
+E = k · q₁ / r²
+</div>
+
+
+<div class="box">
+
+Das elektrische Feld beschreibt nicht die Kraft selbst,
+sondern die Kraft pro Ladung ausschließlich von q₁ (ohne Eigenschaften von q₂) an jedem Punkt im Raum.
+
+</div>
+
+
+<p>
+Die Bedeutung lautet:
+</p>
+
+
+<div class="box">
+
+Wenn sich an diesem Ort eine Ladung befinden würde,
+würde sie genau diese Kraft pro Coulomb erfahren.
+
+</div>
+
+
+<div class="box">
+
+Unabhängig von der Testladung (bzw. zweiten Ladung) beschreibt das elektrische Feld,
+welche elektrische Wirkung die Ladung q₁ im umgebenden Raum erzeugt.
+
+Es zeigt, wie stark eine beliebige Ladung an jedem Punkt der Umgebung beeinflusst würde,
+wenn sie dort vorhanden wäre.
+
+Damit beschreibt das elektrische Feld die räumliche Verteilung der elektrischen Wirkung
+einer einzelnen Ladungsquelle.
+
+Wir betrachten also isoliert den Beitrag von q₁,
+ohne die Eigenschaften der Testladung q₂ in die Beschreibung einzubeziehen.
+
+</div>
+
+
+<div class="box">
+
+Da die Stärke der elektrischen Wirkung vom Abstand zur Ladung q₁ abhängt,
+wird das elektrische Feld als Funktion des Abstandes r betrachtet.
+
+<div class="formula">
+E(r) = k · q₁ / r²
+</div>
+
+Dadurch kann für jeden Punkt im Raum bestimmt werden,
+wie stark der Einfluss der Ladung q₁ an dieser Stelle ist.
+
+</div>
+
+
+<h2>5. Das Feld als Struktur des Raumes</h2>
+
+
+<p>
+Eine Ladung erzeugt nicht nur eine einzelne Kraft.
+Sie erzeugt eine räumliche Struktur:
+</p>
+
+
+<div class="box">
+
+Das elektrische Feld ist eine Landkarte,
+die angibt, wie stark die elektrische Wirkung an jedem Ort ist.
+
+</div>
+
+
+<p>
+Der Abstand beeinflusst die Stärke:
+</p>
+
+
+<div class="formula">
+E ∝ 1/r²
+</div>
+
+
+<ul>
+<li>Nahe an der Ladung: starkes Feld</li>
+<li>Großer Abstand: schwaches Feld</li>
+</ul>
+
+
+
+<h2>6. Von Elektrizität zu Magnetismus</h2>
+
+
+<p>
+Bisher wurden ruhende Ladungen betrachtet.
+</p>
+
+
+<p>
+Eine ruhende Ladung erzeugt:
+</p>
+
+
+<div class="formula">
+q → E
+</div>
+
+
+<p>
+Wenn sich Ladungen bewegen, entsteht eine zusätzliche Wirkung:
+</p>
+
+
+<div class="formula">
+q + v → E + B
+</div>
+
+
+<p>
+Eine bewegte Ladung erzeugt neben dem elektrischen Feld
+auch ein magnetisches Feld.
+</p>
+
+
+
+<h2>7. Magnetische Wechselwirkung</h2>
+
+<p>
+Auch beim Magnetismus benötigen wir ein zweites Objekt,
+um eine Kraft messen zu können.
+</p>
+
+<p>
+Das Testobjekt besitzt jetzt:
+</p>
+
+<ul>
+<li>Ladung q₂</li>
+<li>Geschwindigkeit v₂</li>
+</ul>
+
+<p>
+Der Grund:
+Eine ruhende Ladung erfährt keine magnetische Kraft.
+Die Bewegung der Ladungen ist die Ursache der magnetischen Wechselwirkung.
+</p>
+
+<p>
+Vereinfacht kann die magnetische Wechselwirkung zwischen zwei bewegten Ladungen
+als Erweiterung der Coulomb-Kraft betrachtet werden:
+</p>
+
+<div class="formula">
+F<sub>B</sub> ∝ (q₁ · q₂ · v₁ · v₂ · sin(θ)) / r²
+</div>
+
+<p>
+Dabei beschreibt:
+</p>
+
+<ul>
+<li>q₁, q₂: die beteiligten Ladungen</li>
+<li>v₁, v₂: die Geschwindigkeiten der Ladungen</li>
+<li>r: den Abstand zwischen den Ladungen</li>
+<li>θ: den Winkel zwischen den Bewegungsrichtungen</li>
+</ul>
+
+<div class="box">
+
+Im Unterschied zur Coulomb-Kraft hängt die magnetische Wirkung nicht nur
+von den Ladungen ab, sondern zusätzlich von ihrer Bewegung.
+
+</div>
+
+
+<h2>8. Einführung des Magnetfeldes</h2>
+
+<p>
+Die magnetische Wechselwirkung beschreibt zunächst die Kraft zwischen zwei bewegten Ladungen:
+</p>
+
+<div class="formula">
+F<sub>B</sub> ∝ (q₁ · q₂ · v₁ · v₂ · sin(θ)) / r²
+</div>
+
+<p>
+Diese Kraft hängt jedoch noch von den Eigenschaften des beobachteten Teilchens ab:
+</p>
+
+<ul>
+<li>Ladung q₂</li>
+<li>Geschwindigkeit v₂</li>
+<li>Winkel θ zwischen Bewegung und magnetischer Wirkung</li>
+</ul>
+
+
+<div class="box">
+
+Analog zum elektrischen Feld wollen wir nicht die Eigenschaften des Testobjekts
+beschreiben, sondern ausschließlich die Wirkung der Quelle.
+
+</div>
+
+
+<p>
+Deshalb entfernen wir den Einfluss des Testobjekts durch Division:
+</p>
+
+
+<div class="formula">
+B = F<sub>B</sub> / (q₂ · v₂ · sin(θ))
+</div>
+
+<p>
+Die Eigenschaften der Testladung kürzen sich heraus:
+</p>
+
+
+<div class="formula">
+B ∝ q₁ · v₁ / r²
+</div>
+
+
+<p>
+Damit erhalten wir eine Größe, die nur noch die magnetische Struktur des Raumes beschreibt.
+</p>
+
+
+<div class="box">
+
+Das Magnetfeld beschreibt die magnetische Wirkung einer bewegten Ladungsquelle,
+unabhängig davon, welches Testteilchen diese Wirkung misst.
+
+</div>
+
+</body>
+
+</html>
